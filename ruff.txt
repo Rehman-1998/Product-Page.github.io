@@ -1,0 +1,118 @@
+$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      
+ 
+      
+      items : 1, 
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false
+ 
+  });
+ 
+});
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+
+<img src="images/left-arrow.png" alt="" />
+
+<img src="images/right-arrow.png" alt="">
+
+
+top: 155px;
+    right: -35px;
+
+top: 155px;
+    left: -60px;
+
+
+
+
+
+
+
+
+
+
+<div class="quantity-box">
+                <ul
+                  class="
+                    list-unstyled
+                    d-flex
+                    justify
+                    content-center
+                    align-items-center
+                  "
+                >
+                  <li class="quantity-box-addition ul-li">+</li>
+                  <li class="quantity-box-number ul-li">1</li>
+                  <li class="quantity-box-minus ul-li">-</li>
+                </ul>
+              </div>
+
+
+
+onclick="decrement()"
+onclick="increment()"
+
+class="quantity-box-number ul-li" id="root"
+
+
+
+
+ <!-- ******************* Header ******************************* -->
+
+    <div class="container-fluid top-header">
+      <div class="container">
+        <div class="col">
+          <div class="tel-num d-flex justify-content-start align-items-start">
+            <i class="fas fa-phone-alt top-header-font me-3 phone-icon"></i>
+            <p class="top-header-font pt-3">+971 XXXX XXX</p>
+
+            <i class="far fa-envelope top-header-font me-3 ms-5 phone-icon"></i>
+            <p class="top-header-font pt-3">info@Dolceefiore.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+header css
+
+/* ************ Header ************************/
+
+.top-header {
+  background-color: #252324;
+}
+.top-header-font {
+  color: white;
+  font-size: 12px;
+}
+.phone-icon {
+  padding-top: 19px;
+}
